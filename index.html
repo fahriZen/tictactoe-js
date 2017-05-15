@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width,user-scalable=no"/>
+	<meta name="dicoding:email" content="fahri.lafa@gmail.com"/>
+	<link rel="stylesheet"  href="./lib/tau/mobile/theme/default/tau.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+	<title>Tizen Web IDE - Template - Tizen - Tizen Web UI Framework - Single-Page</title>
+</head>
+
+<body>
+	<div class="splash body" id="loading" style="display: block;">
+		<div class="img">
+			<p><img src="assets/Papan6.gif" alt="splashscreen" id="splash" /></p>
+		</div>		
+		<p style="font-size: 12px; text-align: left;">Song: JJD - Adventure [NCS Release] | Music provided by NoCopyRightSounds.</p>
+		<p style="font-size: 12px; text-align: left;">Watch: <a href="https://www.youtube.com/watch?v=f2xGxd9xPYA">https://www.youtube.com/watch?v=f2xGxd9xPYA</a></p>
+		<p style="font-size: 12px; text-align: left;">JJD social networks</p>
+		<ul>
+			<li style="font-size: 12px; text-align: left;"><a href="https://soundcloud.com/jjdofficial">https://soundcloud.com/jjdofficial</a></li>
+			<li style="font-size: 12px; text-align: left;"><a href="https://www.facebook.com/jjdofficial">https://www.facebook.com/jjdofficial</a></li>
+			<li style="font-size: 12px; text-align: left;"><a href="https://www.youtube.com/user/JJDofficial">https://www.youtube.com/user/JJDofficial</a></li>
+		</ul>
+		<div id="loading-bar" class="bar">
+			<div id="progress-bar" class="bar">10%</div>
+		</div>
+	</div>
+		
+		<div class="body" style="display: none;" id="main">
+			<audio loop id="audio">
+				<source src="assets/audio.ogg">
+			</audio>
+			<div class="menu">
+				<ul>					
+					<li id="exit-btn"><img src="assets/exit.png" id="exit"/></li>
+					<li id="sound-btn"><img src="assets/sound_enable.png" id="sound"/></li>
+				</ul>
+			</div>
+			<br><br>
+			<div id="press">
+			<div class="logo">
+				<p><img src="assets/Papan6.gif" alt="splashscreen" id="logo" /></p>
+			</div>
+			<br><br>
+			<p id="start"><i>Touch anywhere to start</i></p>
+			</div>				        
+		</div>
+		
+	<div class="game" style="display: none">
+	<div class="atas">
+		<div class="bungkus" id="atas">
+			<div class="board" id="1"></div>
+			<div class="board" id="2"></div>
+			<div class="board" id="3"></div>
+		</div>
+	</div>
+	<div class="tengah">
+		<div class="bungkus">
+			<div class="board" id="4"></div>
+			<div class="board" id="5"></div>
+			<div class="board" id="6"></div>
+		</div>
+	</div>
+	<div class="bawah">
+		<div class="bungkus">
+			<div class="board" id="7"></div>
+			<div class="board" id="8"></div>
+			<div class="board" id="9"></div>
+		</div>
+	</div>
+	</div>
+	
+	<script type="text/javascript" src="./lib/tau/mobile/js/tau.js"></script>	
+	<script src="./js/jquery-3.2.1.min.js"></script>	
+	<script src="./js/main.js"></script>	
+	
+</body>
+</html>

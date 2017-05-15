@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://com.tryDev.TicTacToe" version="1.0.0" viewmodes="fullscreen">
+    <tizen:application id="KUARNI365H.TicTacToe" package="KUARNI365H" required_version="2.4"/>
+    <author email="fahri.lafa@gmail.com">tryDev</author>
+    <content src="index.html"/>
+    <description>Game Tic Tac Toe sederhana. Cocok untuk dimainkan bersama saudara, teman, ataupun keluarga.</description>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <name>Tic Tac Toe</name>
+    <tizen:profile name="mobile"/>
+    <tizen:setting context-menu="disable"/>
+</widget>
